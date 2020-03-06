@@ -1,0 +1,22 @@
+VERSION '01.13'
+
+[Sealed]
+[Securable]
+[@Guid(08040a61-db3a-440c-a37e-2de404a6fd9c)]
+[@GuidId(f297c483-ac2e-453c-ade9-5334dd59cf45)]
+ENTITY vTeam
+WITH
+    [Mandatory]
+    [@Guid(f297c483-ac2e-453c-ade9-5334dd59cf45)]
+    Id AS Guid
+    [Length = 255]
+    [@Guid(14e4c655-b446-4f2f-81c7-5e5c0b4d8fe5)]
+    Name AS string
+    [Length = 255]
+    [@Guid(7eec7e36-f940-401a-8d24-a3ed9ef671e8)]
+    Description AS string
+    [@Guid(4ce67a12-d21f-466d-b464-fabdaade928a)]
+    Number AS int
+    [@Guid(d33ae252-7866-47d9-bd47-225f049ad1ba)]
+    IsActive AS bool
+
